@@ -26,7 +26,7 @@
 {"key":"csp_YGP","name":"预告片┃新片","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"csp_Bili","name":"哔哩┃合集","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.597},"filterable":1,"changeable":0,"ext":"./json/chuqiuyu.json"},
 {"key":"csp_xuexi","name":"哔哩┃课堂","type":"3","api":"csp_Bili","searchable":"0","quickSearch":"0","style":{"type":"rect","ratio":1.597},"filterable":"1","changeable":0,"ext":"./json/xuexi.json"},
-{"key":"玩偶","name":"玩偶哥哥┃4K弹幕","type":3,"api":"vodtype","searchable":1,"quickSearch":1,"changeable":0, "ext": {"aliToken":"tvfan/token.txt","quarkCookie":"tvfan/cookie.txt","from":"4k|auto|fhd","siteUrl":"https://www.wogg.link/","danMu":"弹"}},
+{"key":"玩偶","name":"玩偶哥哥┃4K弹幕","type":3,"api":"vodtype","searchable":1,"quickSearch":1,"changeable":0, "ext": {"aliToken":"tvfan/token.txt","quarkCookie":"tvfan/cookie.txt","from":"4k|auto|fhd","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key":"csp_Aid","name":"急救┃指南","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
 {"key":"lf_js_lf_live","name":"电视┃直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
 
