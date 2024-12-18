@@ -28,11 +28,11 @@ jobs:
         git remote add upstream https://github.com/gaotianliuyun/gao.git  # 源仓库地址
         git fetch upstream  # 获取源仓库的最新内容
 
-    # 合并 upstream/master 到本地仓库
+    # 合并 upstream/master 到本地仓库，使用 --allow-unrelated-histories
     - name: Merge upstream/master into master
       run: |
         git checkout master  # 切换到 master 分支
-        git merge upstream/master  # 合并 upstream/master 到本地的 master 分支
+        git merge upstream/master --allow-unrelated-histories  # 强制合并不相关的历史
 
     # 推送本地更新到你的 fork 仓库
     - name: Push changes
