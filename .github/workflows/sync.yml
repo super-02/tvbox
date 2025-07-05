@@ -25,7 +25,7 @@ jobs:
     # 设置 upstream 源仓库（你 fork 的原仓库）
     - name: Set up upstream remote
       run: |
-        git remote add upstream https://github.com/gaotianliuyun/gao.git  # 源仓库地址
+        git remote add upstream https://github.com/qist/tvbox.git  # 源仓库地址
         git fetch upstream  # 获取源仓库的最新内容
 
     # 合并 upstream/master 到本地仓库，使用 --allow-unrelated-histories
